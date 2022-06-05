@@ -4,6 +4,7 @@ describe('Testing values', () => {
 
     test('Test if equal', () => {
         expect(dummyWord).toEqual('Webhelp');
+        expect(dummyWord).toEqual(expect.anything());
         // expect(dummyArray[1].month).toEqual('october');
         // expect(dummyWord == 'Webhelp').toBeTruthy(); // Conditionals, as a "boolean" data type, can be validated this way as well.
     });
