@@ -18,8 +18,8 @@ describe('Testing Object types', () => {
     test('Test if has specific properties', () => {
         // Use toMatchObject for strict comparison.
         expect(dummyObject).toHaveProperty('accountId');
-        // expect(dummyObject).toHaveProperty('accountId', 'expectedAccountId');
-        // expect(dummyObject).not.toHaveProperty('chatbotId'); // It doesn't even read this because the previous one actually failed.
+        //expect(dummyObject).toHaveProperty('accountId', 'expectedAccountId');
+        //expect(dummyObject).not.toHaveProperty('chatbotId'); // It doesn't even read this because the previous one actually failed.
     });
 
 

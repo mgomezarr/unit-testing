@@ -8,11 +8,11 @@ describe('Testing Error types', () => {
         }).not.toThrow();
     });
     
-    // test('Test that shows no specific Syntax Error', () => {
-    //     expect(() => {
-    //         errorHere();
-    //     }).not.toThrow(SyntaxError);
-    // });
+    test('Test that shows no specific Syntax Error', () => {
+        expect(() => {
+            errorHere();
+        }).not.toThrow(SyntaxError);
+    });
     
     // // ----------------------------------------
     

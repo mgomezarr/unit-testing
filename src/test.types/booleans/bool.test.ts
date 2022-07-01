@@ -7,8 +7,8 @@ describe('Testing Boolean types', () => {
     });
 
 
-    // test('Test that returns false', () => {
-    //     let returnsTrue = itReturnsFalse();
-    //     expect(returnsTrue).toBeFalsy();
-    // });
+    test('Test that returns false', () => {
+        let returnsTrue = itReturnsFalse();
+        expect(returnsTrue).toBeFalsy();
+    });
 });
